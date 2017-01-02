@@ -46,8 +46,8 @@ function placeAll()
   for a,t in pairs({
     ["IntelliJ IDEA"]={screen="DELL U3014",x=0,w=0.7},
     ["Terminal"]={screen="DELL U3014",x=0.7,w=0.3},
-    ["Atom"]={screen="DELL U3014",
-    ["Google Chrome"]={screen="Color LCD"}}
+    ["Atom"]={screen="DELL U3014"},
+    ["Google Chrome"]={screen="Color LCD"}
   }) do
       place(a,t.screen,t.x,t.w)
   end
